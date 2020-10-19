@@ -7,8 +7,6 @@ import pandas as pd
 import hashlib
 
 
-# random comment 525619
-
 client = Algorithmia.client()
 
 
