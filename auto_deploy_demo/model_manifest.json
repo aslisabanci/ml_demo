@@ -1,0 +1,9 @@
+{
+    "model_filepath": "./model.pkl",
+    "model_md5_hash": "3351f09272c9347b268c7defea7991c1",
+    "model_origin_commit_SHA": "e970f9cf4fa6f4823ca5e5476dd1b60a1f4d01d8",
+    "model_origin_commit_msg": "Testing demo pushes",
+    "model_origin_repo": "aslisabanci/ml_demo",
+    "model_origin_ref": "refs/heads/master",
+    "model_uploaded_utc": "2020-10-19 15:41:34.780011"
+}

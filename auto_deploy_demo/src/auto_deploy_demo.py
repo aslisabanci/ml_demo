@@ -5,6 +5,7 @@ import joblib
 import xgboost
 import pandas as pd
 import hashlib
+from pathlib import Path
 
 # random comment 856284
 
@@ -25,7 +26,7 @@ def load_model_manifest(rel_path="model_manifest.json"):
     }
     """
     manifest = []
-    manifest_path = "{}/{}".format(os.getcwd(), (rel_path))
+    manifest_path = "{}/{}".format(Path(__file__).parents[1], rel_path)
     if os.path.exists(manifest_path):
         with open(manifest_path) as json_file:
             manifest = json.load(json_file)
