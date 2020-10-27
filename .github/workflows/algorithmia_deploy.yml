@@ -1,8 +1,9 @@
 name: Deploy to Algorithmia
 
 on:
-  repository_dispatch:
-    types: asli-test-event
+  workflow_dispatch
+#   repository_dispatch:
+#     types: asli-test-event
 #   push:
 #     branches:
 #       - master
